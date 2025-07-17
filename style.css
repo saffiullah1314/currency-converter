@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    color: grey;
+    font-family: "Roboto Slab", serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 32rem;
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    border: 0.1rem solid #cfcfcf;
+    border-radius: 1rem;
+    background:linear-gradient(#eaeefb , #f5f5f5);
+    padding:2rem 1.5rem;
+}
+.heading{
+    
+    font-size: 2rem;
+    font-weight: 500;
+    color:#222368;
+}
+.box{
+    height: 65%;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    margin: 2rem 0 1.5rem 0 ;
+    border-radius: 1.5rem; 
+    position: relative; 
+    box-shadow: 0 0 12px grey;   
+}
+p{
+    font-weight: 300;
+}
+ 
+.from{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flag-circle {
+    width: 2.5rem;  
+    height: 2.5rem;
+    border-radius: 50%;  
+    overflow: hidden; 
+    box-shadow: 0 0 8px grey;   
+    
+}
+.flag-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+} 
+select{
+    font-weight: 700    ;
+    color:#222368;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+.amount{
+    height: 2.5rem;
+    width: 7rem;
+    
+}
+.amount input{
+   height: 100%;
+   width: 100%;
+   color:black;
+   background-color:#e7e7e7;
+   border: none;
+   outline: none;
+   border-radius: 0.3rem;
+   text-align: right;
+   font-size: 1.2rem;
+   font-weight: 500;
+   padding: 0.5rem;
+}
+.to{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.converted-amount{
+    
+    color:black;
+    background-color:#e7e7e7;
+    border-radius: 0.3rem;
+    text-align: right;
+    font-size: 1.2rem;
+   font-weight: 500;
+   padding: 0.5rem;
+   height: auto;
+    width: auto;
+    overflow: hidden;
+}     
+.icon{
+    position: absolute;
+    left: 44%;
+    top: 40%;
+    background-color:#222368;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 50%;
+    cursor: pointer;
+    transform: scale(1);
+}
+.icon:hover{
+    transform: scale(1.06);
+}
+.icon:active{
+    transform: scale(1);
+}
+.icon i{
+    font-size: 1rem;
+    color: #f5f5f5;
+    transform: rotate(90deg);
+    cursor: pointer;
+    ;
+}
+
+
+
+#amount-msg{
+    margin-top: 1.5rem;
+}
+button{
+ 
+    background-color: #222368;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 0 0;
+    transform: scale(1);
+    transition-duration: 0.2s;
+}
+button:hover{
+    box-shadow: 0 0 5px #222368;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1);
+}
+h3{
+    color: black;
+    
+}
+.indicater p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+@media screen and (max-width:400px) and (max-height:760px){
+    .container{
+        border: none;
+        border-radius:1rem;
+    }
+    
+}

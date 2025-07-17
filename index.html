@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <span class="heading">Currency Converter</span>
+        <div class="box">
+            <form>
+                <p>Amount</p>
+                <div class="from">                   
+                   <div class="select-container">
+                      <div class="flag-circle">
+                        <img src="https://flagcdn.com/w320/us.png" alt="Flag">
+                      </div>
+                     <select id="from">
+                        <option value="USD" >USD</option>
+                     </select>
+                   </div> 
+                    <div class="amount"><input type="text" value="1"></div>
+                </div>
+                <hr>
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <p id="amount-msg">Converted Amount</p>
+                <div class="to">                   
+                    <div class="select-container">
+                       <div class="flag-circle">
+                         <img src="https://flagcdn.com/w320/pk.png" alt="Flag">
+                       </div>
+                      <select id="to">
+                         <option value="PKR">PKR</option>  
+                      </select>
+                    </div>
+                    <div class="converted-amount b"></div>
+                </div>
+            </form>   
+        </div>
+        <button>Get Exchange Rate</button>
+        <h3>Exchange Rate</h3>
+        <div class="indicater"><p></p></div>
+    </div>
+    <script src="object.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>
