@@ -1,2 +1,20 @@
-# currency-converter
-A simple Currency converter using Html , Css and Js and Api
+# 💱 Currency Converter App
+
+A simple, responsive currency converter built with HTML, CSS, JavaScript and a public API.
+
+## 🌟 Features
+- Convert between any two currencies
+- Uses live exchange rates
+- Clean and responsive UI
+
+## 🔗 Live Link
+[Click to View Live](https://safiullah1314.github.io/currency-converter/)
+
+## 🚀 Tech Used
+- HTML5
+- CSS3
+- JavaScript
+- API Integration
+
+## 🙌 Author
+Safi Ullah - [GitHub Profile](https://github.com/safiullah1314)
