@@ -8,7 +8,7 @@ A simple, responsive currency converter built with HTML, CSS, JavaScript and a p
 - Clean and responsive UI
 
 ## 🔗 Live Link
-[Click to View Live](https://safiullah1314.github.io/currency-converter/)
+[Click to View Live](https://saffiullah1314.github.io/currency-converter/)
 
 ## 🚀 Tech Used
 - HTML5
@@ -17,4 +17,4 @@ A simple, responsive currency converter built with HTML, CSS, JavaScript and a p
 - API Integration
 
 ## 🙌 Author
-Safi Ullah - [GitHub Profile](https://github.com/safiullah1314)
+Safi Ullah - [GitHub Profile](https://github.com/saffiullah1314)
